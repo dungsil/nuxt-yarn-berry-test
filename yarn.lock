@@ -1550,7 +1550,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/types@npm:^2.15.5":
+"@nuxt/types@npm:2.15.5":
   version: 2.15.5
   resolution: "@nuxt/types@npm:2.15.5"
   dependencies:
@@ -1577,7 +1577,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/typescript-build@npm:^2.1.0":
+"@nuxt/typescript-build@npm:2.1.0":
   version: 2.1.0
   resolution: "@nuxt/typescript-build@npm:2.1.0"
   dependencies:
@@ -7547,11 +7547,11 @@ fsevents@~2.3.1:
   dependencies:
     "@nuxt/cli": ^2.15.5
     "@nuxt/core": ^2.15.5
-    "@nuxt/types": ^2.15.5
-    "@nuxt/typescript-build": ^2.1.0
+    "@nuxt/types": 2.15.5
+    "@nuxt/typescript-build": 2.1.0
     consola: ^2.15.3
     nuxt: ^2.15.5
-    typescript: ^4.2.4
+    typescript: 4.2.4
   languageName: unknown
   linkType: soft
 
@@ -10613,7 +10613,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"typescript@^4.2.4, typescript@~4.2":
+"typescript@4.2.4, typescript@~4.2":
   version: 4.2.4
   resolution: "typescript@npm:4.2.4"
   bin:
@@ -10623,7 +10623,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.2.4#builtin<compat/typescript>, typescript@patch:typescript@~4.2#builtin<compat/typescript>":
+"typescript@patch:typescript@4.2.4#builtin<compat/typescript>, typescript@patch:typescript@~4.2#builtin<compat/typescript>":
   version: 4.2.4
   resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=a45b0e"
   bin:
