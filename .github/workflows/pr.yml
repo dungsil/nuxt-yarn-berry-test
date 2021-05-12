@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/cache@2
+      - uses: actions/cache@v2
         with:
           key: ${{ runner.os }}-${{ matrix.node }}-modules
           path: |
