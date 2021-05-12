@@ -3,6 +3,7 @@
 
 # Yarn
 .yarn/*
+node_modules/
 
 ## yarn patch-commit : https://yarnpkg.com/cli/patch-commit
 !.yarn/patches
@@ -17,8 +18,8 @@
 
 !.yarn/versions
 
-## with zero-install
-!.yarn/cache
-
 ## without zero-install
 .pnp.*
+
+# Nuxt.js
+.nuxt/
